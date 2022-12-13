@@ -1,5 +1,5 @@
 <?php
-   $frase = 'ciao a tutti mi chiamo cicciogamer89.'
+   $frase = 'ciao a tutti mi chiamo cicciogamer89. mi piace Fortnite'
 ?>
 
 
@@ -18,5 +18,6 @@
    <em>
       <?php echo strlen($frase) ?>
    </em>
+   
 </body>
 </html>
