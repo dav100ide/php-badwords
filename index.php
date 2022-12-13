@@ -1,5 +1,7 @@
 <?php
-   $frase = 'ciao a tutti mi chiamo cicciogamer89. mi piace Fortnite'
+   $frase = 'ciao a tutti mi chiamo cicciogamer89. mi piace Fortnite';
+   $censurato = $_GET['ciao'];
+   $frase_nuova = str_replace($censurato, '***', $frase);
 ?>
 
 
@@ -16,8 +18,12 @@
       <?php echo $frase ?>
    </p>
    <em>
+      lunghezza frase:
       <?php echo strlen($frase) ?>
    </em>
-   
+   <h3>
+      <?php echo $frase_nuova ?>
+   </h3>
 </body>
 </html>
+
