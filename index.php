@@ -2,6 +2,7 @@
    $frase = 'ciao a tutti mi chiamo cicciogamer89.'
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,5 +15,8 @@
    <p>
       <?php echo $frase ?>
    </p>
+   <em>
+      <?php echo strlen($frase) ?>
+   </em>
 </body>
 </html>
